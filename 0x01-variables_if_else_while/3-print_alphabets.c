@@ -12,7 +12,7 @@ d = 'A';
 while
 (c <= 'z')
 {
-puchar(c);
+putchar(c);
 c++;
 }
 while
