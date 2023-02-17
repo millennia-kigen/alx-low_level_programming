@@ -5,11 +5,24 @@
  */
 int main(void)
 {
-char ch;
-for(ch = 'a'; ch <= 'z'; ch++)
-putchar(ch);
-for(ch = 'A'; ch <= 'z'; ch++)
-putchar(ch);
+char c;
+char d;
+c = 'a';
+d = 'A';
+while
+(c <= 'z')
+{
+puchar(c);
+c++;
+}
+while
+(d <= 'z')
+{
+putchar(c);
+d++;
+}
 putchar('\n');
 return (0);
 }
+
+
